@@ -38,7 +38,7 @@
 		</div>
 		<div class="ui-content" role="main">
             <figure id="heroimg">
-                <img src="img/photos-by-lanty-583490-unsplash.jpg" alt="image">
+                <img src="img/brooke-lark-261287-unsplash.jpg" alt="image">
             </figure>
 		</div>
 		<div data-role="footer"data-position="fixed" >
@@ -124,7 +124,19 @@
 			</div>
 		</div>
 		<div class="ui-content" role="main" id="content">
-			<div id="map_canvas" style="height:100%"></div>
+
+			<h1>Location</h1>
+
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDU43uOZTVeQoka9hpR1uNFm8Xcz1L6boQ'></script>
+			<div style='overflow:hidden;height:400px;width:520px;'>
+			<div id='gmap_canvas' style='height:400px;width:520px;'>
+
+			</div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+			</div> <a href='https://www.embed-map.net/'>www.Embed-map.net</a>
+			<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=3af295e3c07a3c398b6fc3d9a31dbc5f82bc377c'></script>
+
+			<script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(32.7448,-117.17020000000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(32.7448,-117.17020000000002)});infowindow = new google.maps.InfoWindow({content:'<strong>DoBoy HQ</strong><br>San Diego Downtown<br>92103 San Diego<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
 		</div>
 		<div data-role="footer"data-position="fixed" >
 			<h2>&copy; DoBoy Bakery</h2>
@@ -152,12 +164,19 @@
 			    <input type="email" placeholder="example(janedoe@gmail.com)" required>
 			    <input type="submit" value="Leave Message"/>
 			</form>
+
+			<figure id="contactimg">
+			    <img src="img/jordane-mathieu-1141219-unsplash.jpg" alt="cimg">
+			</figure>
+
 		</div>
 		<div data-role="footer" data-position="fixed">
 			<h2>&copy; DoBoy Bakery</h2>
 		</div>
 	</div>
 	
+
+
 </body>
 
 </html>

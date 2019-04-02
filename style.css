@@ -17,6 +17,17 @@ data-role="page" {
     margin: 3em auto;
 }
 
+#contactimg {
+    text-align: center;
+}
+
+#contactimg img {
+    text-align: center;
+    display: inline-block;
+    max-width: 600px;
+    width: 50%;
+    margin: 3em auto;
+}
 #content {
     padding: 0;
     position : absolute !important;
