@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DoBoy Bakery</title>
+
+    <link rel="stylesheet" href="themes/doBoy.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	
+	<script src="main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    
+    
+	<meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+	<!-- This is the first page -->
+	<section id="firstpage" data-role="page" data-theme="d">
+		<div data-role="header" data-position="fixed">
+			<h1>DoBoy Bakery</h1>
+			<div data-role="navbar">
+			    <ul>
+			        <li><a href="#firstpage" data-icon="home">Home</a></li>
+			        <li><a href="#secondpage" data-icon="info">Menu</a></li>
+			        <li><a href="#thirdpage" data-icon="star">About Us</a></li>
+			        <li><a href="#fourthpage" data-icon="search">Locations</a></li>
+			        <li><a href="#fifthpage" data-icon="alert">Contact</a></li>
+			    </ul>
+			</div>
+		</div>
+		<div class="ui-content" role="main">
+            <figure id="heroimg">
+                <img src="img/photos-by-lanty-583490-unsplash.jpg" alt="image">
+            </figure>
+		</div>
+		<div data-role="footer"data-position="fixed" >
+			<h2>&copy; DoBoy Bakery</h2>
+		</div>
+	</section>
+
+	<!-- This is the second page -->
+	<div id="secondpage" data-role="page" data-theme="d">
+		<div data-role="header" data-position="fixed">
+			<h1>DoBoy Bakery</h1>
+			<div data-role="navbar">
+			    <ul>
+			        <li><a href="#firstpage" data-icon="home">Home</a></li>
+			        <li><a href="#secondpage" data-icon="info">Menu</a></li>
+			        <li><a href="#thirdpage" data-icon="star">About Us</a></li>
+			        <li><a href="#fourthpage" data-icon="search">Locations</a></li>
+			        <li><a href="#fifthpage" data-icon="alert">Contact</a></li>
+			    </ul>
+			</div>
+		</div>
+		<div class="ui-content" role="main">
+			<h1>Menu</h1>
+            
+            <div data-role="collapsible">
+			    <h2>Cakes</h2>
+			    <p>Peach Cobbler</p>
+			    <p>German Chocolate</p>
+			    <p>Gone in 60s Pound Cake</p>
+			    <p>Rum Carrot Cake</p>
+			    <p>Pure Vanilla Cake</p>
+			</div>
+			
+			<div data-role="collapsible">
+			    <h2>Pies</h2>
+			    
+			</div>
+			
+			<div data-role="collapsible">
+			    <h2>Breads</h2>
+			</div>
+			
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>&copy; DoBoy Bakery</h2>
+		</div>
+	</div>
+	
+		<!-- This is the third page -->
+	<div id="thirdpage" data-role="page" data-theme="d">
+		<div data-role="header"data-position="fixed" >
+			<h1>DoBoy Bakery</h1>
+			<div data-role="navbar">
+			    <ul>
+			        <li><a href="#firstpage" data-icon="home">Home</a></li>
+			        <li><a href="#secondpage" data-icon="info">Menu</a></li>
+			        <li><a href="#thirdpage" data-icon="star">About Us</a></li>
+			        <li><a href="#fourthpage" data-icon="search">Locations</a></li>
+			        <li><a href="#fifthpage" data-icon="alert">Contact</a></li>
+			    </ul>
+			</div>
+		</div>
+		<div class="ui-content" role="main">
+			
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>&copy; DoBoy Bakery</h2>
+		</div>
+	</div>
+	
+		<!-- This is the fourth page -->
+	<div id="fourthpage" data-role="page" data-theme="d">
+		<div data-role="header"data-position="fixed" >
+			<h1>DoBoy Bakery</h1>
+			<div data-role="navbar">
+			    <ul>
+			        <li><a href="#firstpage" data-icon="home">Home</a></li>
+			        <li><a href="#secondpage" data-icon="info">Menu</a></li>
+			        <li><a href="#thirdpage" data-icon="star">About Us</a></li>
+			        <li><a href="#fourthpage" data-icon="search">Locations</a></li>
+			        <li><a href="#fifthpage" data-icon="alert">Contact</a></li>
+			    </ul>
+			</div>
+		</div>
+		<div class="ui-content" role="main" id="content">
+			<div id="map_canvas" style="height:100%"></div>
+		</div>
+		<div data-role="footer"data-position="fixed" >
+			<h2>&copy; DoBoy Bakery</h2>
+		</div>
+	</div>
+	
+		<!-- This is the fifth page -->
+	<div id="fifthpage" data-role="page" data-theme="d">
+		<div data-role="header" data-position="fixed">
+			<h1>DoBoy Bakery</h1>
+			<div data-role="navbar">
+			    <ul>
+			        <li><a href="#firstpage" data-icon="home">Home</a></li>
+			        <li><a href="#secondpage" data-icon="info">Menu</a></li>
+			        <li><a href="#thirdpage" data-icon="star">About Us</a></li>
+			        <li><a href="#fourthpage" data-icon="search">Locations</a></li>
+			        <li><a href="#fifthpage" data-icon="alert">Contact</a></li>
+			    </ul>
+			</div>
+		</div>
+		<div class="ui-content" role="main">
+			<h1> Contact Us</h1>
+			<form>
+			    <textarea placeholder="Leave message..."></textarea>
+			    <input type="email" placeholder="example(janedoe@gmail.com)" required>
+			    <input type="submit" value="Leave Message"/>
+			</form>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>&copy; DoBoy Bakery</h2>
+		</div>
+	</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+data-role="page" {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#heroimg {
+    text-align: center;
+}
+
+#heroimg img {
+    text-align: center;
+    display: inline-block;
+    max-width: 600px;
+    width: 50%;
+    margin: 3em auto;
+}
+
+#content {
+    padding: 0;
+    position : absolute !important;
+    top : 40px !important;
+    right : 0;
+    bottom : 40px !important;
+    left : 0 !important;
+}
